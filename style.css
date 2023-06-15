@@ -1,0 +1,33 @@
+.container {
+    width: 70%;
+    margin: 25px auto;
+}
+
+.card {
+    border: 5px solid grey;
+    width: 500px;
+}
+
+.card-header {
+    height: 100px;
+    background-color: rgb(23, 162, 184);
+    position: relative;
+    border: 3px solid rgb(23, 162, 184);
+}
+
+.avatar {
+    width: 75px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
